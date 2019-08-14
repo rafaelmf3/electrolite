@@ -1,0 +1,16 @@
+{
+  "name": "electrolite",
+  "version": "0.1.0",
+  "description": "Electron based lite-wrap for any website",
+  "author": "Andrea Giammarchi",
+  "bin": {
+    "electrolite": "./app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "electron": "latest"
+  },
+  "scripts": {
+    "start": "electron index.js"
+  }
+}
